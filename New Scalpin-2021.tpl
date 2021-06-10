@@ -1,15 +1,15 @@
 <chart>
-id=132495780431773685
-symbol=EURUSD
-period=60
-leftpos=2340
+id=132544088127773718
+symbol=NZDUSD
+period=30
+leftpos=2099
 digits=4
 scale=8
 graph=1
 fore=1
 grid=0
 volume=0
-scroll=0
+scroll=1
 shift=1
 ohlc=1
 one_click=1
@@ -24,8 +24,8 @@ window_top=125
 window_right=945
 window_bottom=537
 window_type=3
-background_color=3680042
-foreground_color=0
+background_color=14599344
+foreground_color=14599344
 barup_color=4766032
 bardown_color=12683008
 bullcandle_color=4766032
@@ -44,13 +44,13 @@ name=main
 </indicator>
 <indicator>
 name=Moving Average
-period=200
+period=10
 shift=0
 method=0
 apply=0
-color=16711935
+color=255
 style=0
-weight=3
+weight=2
 period_flags=0
 show_data=1
 </indicator>
@@ -60,7 +60,7 @@ period=20
 shift=0
 method=0
 apply=0
-color=65535
+color=11829830
 style=0
 weight=2
 period_flags=0
@@ -68,13 +68,13 @@ show_data=1
 </indicator>
 <indicator>
 name=Moving Average
-period=10
+period=200
 shift=0
-method=1
+method=0
 apply=0
-color=2237106
+color=55295
 style=0
-weight=2
+weight=3
 period_flags=0
 show_data=1
 </indicator>
